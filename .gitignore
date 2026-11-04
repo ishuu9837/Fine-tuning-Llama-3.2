@@ -1,0 +1,5 @@
+__pycache__/
+.ipynb_checkpoints/
+llama3-finance-lora*/
+evaluation_results/
+*.zip
