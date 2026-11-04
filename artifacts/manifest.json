@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "archive_name": "llama3-finance-results.zip",
+  "archive_sha256": "d6035c7ffc025e1953f209662b6b1bd6a279758ab247b975d09a488a6485605a",
+  "source_repository": "ishuu9837/Fine-tuning-Llama-3.2",
+  "source_commit": "c6b654368e522374bfe8f42a7f1ca5036511462d",
+  "evaluation_notebook": "fine.ipynb",
+  "members": [
+    {
+      "archive_path": "llama3-finance-lora-final/adapter_config.json",
+      "bytes": 1063,
+      "sha256": "38ccaefb4ca13dd45d9f2301445e0e58d523c79f5400346c71d240817fa2743f",
+      "publication": "copied",
+      "repository_path": "artifacts/adapter_config.json"
+    },
+    {
+      "archive_path": "llama3-finance-lora-final/adapter_model.safetensors",
+      "bytes": 97307544,
+      "sha256": "95e182cbfdfbbed4a91d5715e709125c3956e94f0d942d48b4a4884593e81aee",
+      "publication": "excluded"
+    },
+    {
+      "archive_path": "llama3-finance-lora-final/tokenizer_config.json",
+      "bytes": 50554,
+      "sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403",
+      "publication": "excluded"
+    },
+    {
+      "archive_path": "llama3-finance-lora-final/special_tokens_map.json",
+      "bytes": 211,
+      "sha256": "a75690ffb8fac8176c9cf0dd5927fe2dbd3879ae5483c23e07f0ccfff36ca437",
+      "publication": "excluded"
+    },
+    {
+      "archive_path": "llama3-finance-lora-final/training_args.bin",
+      "bytes": 6225,
+      "sha256": "d8f7cc931c627374b4881f8449943c29c090c7e652cec51d6e4bcd4234935e1a",
+      "publication": "excluded"
+    },
+    {
+      "archive_path": "llama3-finance-lora-final/tokenizer.json",
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+      "publication": "excluded"
+    },
+    {
+      "archive_path": "llama3-finance-lora-final/README.md",
+      "bytes": 5230,
+      "sha256": "4487accdddde0f98b1a50ea60dab1e33756e99b39a05def607f495495589ebff",
+      "publication": "excluded"
+    },
+    {
+      "archive_path": "llama3-finance-lora-final/chat_template.jinja",
+      "bytes": 3827,
+      "sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4",
+      "publication": "excluded"
+    },
+    {
+      "archive_path": "evaluation_results/metrics.json",
+      "bytes": 84569,
+      "sha256": "705ec3832ead88b0476274b74737189f0aff2c5b51a1d678de761917c108fbb5",
+      "publication": "derived_without_examples",
+      "repository_path": "evaluation_results/metrics.json",
+      "omitted_field": "examples",
+      "omitted_records": 50
+    },
+    {
+      "archive_path": "evaluation_results/comparison.csv",
+      "bytes": 798,
+      "sha256": "8f3ce39dc6e7edb5571a75607967186cc4c09b975ba2782aa1404de57b6f4ae1",
+      "publication": "copied",
+      "repository_path": "evaluation_results/comparison.csv"
+    }
+  ],
+  "adapter_inspection": {
+    "tensor_count": 392,
+    "parameter_count": 24313856,
+    "dtype": "F32",
+    "layer_count": 28,
+    "target_modules": [
+      "down_proj",
+      "gate_proj",
+      "k_proj",
+      "o_proj",
+      "q_proj",
+      "up_proj",
+      "v_proj"
+    ]
+  }
+}
